@@ -1,0 +1,29 @@
+{
+  "name": "M307_MED19",
+  "version": "1.0.0",
+  "description": "ICT-Modul_307",
+  "main": "server.js",
+  "scripts": {
+    "upload": "node 01_Get_Post/03_Solutions/upload/upload2.js",
+    "puzzleserver": "node 81_Puzzleserver/00_Demo/server2.js",
+    "schoolserver": "node 82_Schoolserver/03_Solutions/server.js",
+    "registrationserver": "server.js",
+    "loggerserver": "set NODE_ENV=development && node 13a_Logging/00_Demo/register-server/server.js",
+    "guitarserver": "node -r esm 89_Manufacturer/01_Intro/server.js"
+  },
+  "keywords": [
+    "Mediamatiker",
+    "m307",
+    "ICT",
+    "javascript"
+  ],
+  "author": "daniel.garavaldi@bzz.ch",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "uuid": "^8.3.1"
+  }
+}
